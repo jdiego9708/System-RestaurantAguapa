@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/ROoO3YMelHcRiy4IW3ydVoIE6deW8gQJ6CqYwAAPvU=</dsig:DigestValue>
+        <dsig:DigestValue>853fGXBD2F9CmYx42O3+6NwZZaUS4dSOh3FaM77qT04=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>b0HQ72YS0ZPXHfQFLI9N6y9meNpOjK8e2+WfUucfE+g=</dsig:DigestValue>
+        <dsig:DigestValue>P7txjSFIncIaJpQK44XlPx0/P2xLCaBBN9pgynA8hN4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,19 +86,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Q5N8iGCPvFJtjWBkBGV8QNhzn1SKgKlomnt+/oc3Lws=</dsig:DigestValue>
+        <dsig:DigestValue>5q5z/retPgqLDwIyvg85W5ZOilvEGXnHrFv8NP7408o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="5232128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="5219328">
       <assemblyIdentity name="CapaPresentacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2N9jN/xgs/ZuTyBDw1ZAxedKXsOfH3QqOS3vuXCu3iE=</dsig:DigestValue>
+        <dsig:DigestValue>lhY+YgQENKHSrtb3xa/vb4I9OABd3TONvDjeHCZ+cZM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -139,14 +139,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EnvDTE.dll" size="255912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EnvDTE.dll" size="255936">
       <assemblyIdentity name="EnvDTE" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fNAaLmMILxBNvMryrYs32OsgHRO8EZULjdC8a3D5xl0=</dsig:DigestValue>
+        <dsig:DigestValue>xCABtLjGyhP9QBgltb3rGN+fq7Zow2UugKe99fd1k18=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -722,19 +722,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VWeSxYVUMLqvs2KbbQvb89TStbKgKbGLusGBkaqn+xI=</dsig:DigestValue>
+        <dsig:DigestValue>Lz+onJwm7icVfO7LwSLe09GiJW4my1b3/aWWe617jZQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="26536">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="16384">
       <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w29HsVbRk1A6ZlnXyaXocbvr5UwYuBHFQHG1hrMCaMk=</dsig:DigestValue>
+        <dsig:DigestValue>1s35YcbScS/hlYgV5Rowlg15//Hpd4i3dBYn26ly6Pc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -759,13 +759,13 @@
       <dsig:DigestValue>5Hw67SS5ncQ9a3m88dDmUAozNpKrHaJDTu4fT7CUSrI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SISMistico.exe.config" size="6598">
+  <file name="SISMistico.exe.config" size="6590">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>zUu3MX9CVywy3TMC+F1AVIdOl2omGGgsjEiBjM1QQbM=</dsig:DigestValue>
+      <dsig:DigestValue>Kiybo6h8fTNtM6DbPUpRlJEORun+RVT0Ty7oH0XMLGA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SqlServerTypes\readme.htm" size="2369">
