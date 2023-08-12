@@ -167,6 +167,10 @@ DocProject/Help/html
 !publish/
 
 !publish/Application Files/
+!publish/Application Files/SISMistico_1_0_0_107/
+!publish/Application Files/SISMistico_1_0_0_107/SqlServerTypes/
+!publish/Application Files/SISMistico_1_0_0_107/SqlServerTypes/x64
+!publish/Application Files/SISMistico_1_0_0_107/SqlServerTypes/x86
 
 !publish/SqlServerTypes/
 !publish/SqlServerTypes/x64/
