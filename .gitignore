@@ -166,8 +166,13 @@ DocProject/Help/html
 # Click-Once directory
 !publish/
 
-!SqlServerTypes/x64/
-!SqlServerTypes/x86/
+!publish/SqlServerTypes/
+!publish/SqlServerTypes/x64/
+!publish/SqlServerTypes/x86/
+!publish/SqlServerTypes/x64/msvcr120.dll.deploy
+!publish/SqlServerTypes/x86/msvcr120.dll.deploy
+!publish/SqlServerTypes/x64/SqlServerSpatial140.dlll.deploy
+!publish/SqlServerTypes/x86/SqlServerSpatial140.dll.deploy
 
 # Publish Web Output
 *.[Pp]ublish.xml
