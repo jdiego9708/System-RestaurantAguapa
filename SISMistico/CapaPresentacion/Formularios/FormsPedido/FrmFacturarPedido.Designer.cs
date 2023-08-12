@@ -433,17 +433,12 @@
             0,
             0,
             0});
-            this.numericCantidadFacturas.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
             this.numericCantidadFacturas.Name = "numericCantidadFacturas";
             this.numericCantidadFacturas.Size = new System.Drawing.Size(69, 28);
             this.numericCantidadFacturas.TabIndex = 29;
             this.numericCantidadFacturas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericCantidadFacturas.Value = new decimal(new int[] {
-            2,
+            1,
             0,
             0,
             0});

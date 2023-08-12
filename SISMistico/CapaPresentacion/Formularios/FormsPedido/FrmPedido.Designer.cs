@@ -44,23 +44,23 @@ namespace CapaPresentacion.Formularios.FormsPedido
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.panelPedido = new CapaPresentacion.Controles.CustomGridPanel();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.numericComandas = new System.Windows.Forms.NumericUpDown();
             this.gbNumClientes = new System.Windows.Forms.GroupBox();
             this.numericClientes = new System.Windows.Forms.NumericUpDown();
             this.chkPrintComandas = new System.Windows.Forms.CheckBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.txtInfoPedido = new System.Windows.Forms.TextBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.numericComandas = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             this.panelBanner.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            this.gbNumClientes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericClientes)).BeginInit();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericComandas)).BeginInit();
+            this.gbNumClientes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericClientes)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -245,6 +245,38 @@ namespace CapaPresentacion.Formularios.FormsPedido
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Información";
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.numericComandas);
+            this.groupBox6.Location = new System.Drawing.Point(156, 13);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(103, 65);
+            this.groupBox6.TabIndex = 30;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "# Comandas";
+            // 
+            // numericComandas
+            // 
+            this.numericComandas.BackColor = System.Drawing.Color.White;
+            this.numericComandas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericComandas.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericComandas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.numericComandas.Location = new System.Drawing.Point(17, 25);
+            this.numericComandas.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numericComandas.Name = "numericComandas";
+            this.numericComandas.Size = new System.Drawing.Size(69, 28);
+            this.numericComandas.TabIndex = 29;
+            this.numericComandas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numericComandas.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // gbNumClientes
             // 
             this.gbNumClientes.Controls.Add(this.numericClientes);
@@ -320,43 +352,6 @@ namespace CapaPresentacion.Formularios.FormsPedido
             this.txtInfoPedido.TabIndex = 0;
             this.txtInfoPedido.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.numericComandas);
-            this.groupBox6.Location = new System.Drawing.Point(156, 13);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(103, 65);
-            this.groupBox6.TabIndex = 30;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "# Comandas";
-            // 
-            // numericComandas
-            // 
-            this.numericComandas.BackColor = System.Drawing.Color.White;
-            this.numericComandas.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericComandas.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericComandas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.numericComandas.Location = new System.Drawing.Point(17, 25);
-            this.numericComandas.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.numericComandas.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericComandas.Name = "numericComandas";
-            this.numericComandas.Size = new System.Drawing.Size(69, 28);
-            this.numericComandas.TabIndex = 29;
-            this.numericComandas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.numericComandas.Value = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            // 
             // FrmPedido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -383,10 +378,10 @@ namespace CapaPresentacion.Formularios.FormsPedido
             this.groupBox4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            this.gbNumClientes.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericClientes)).EndInit();
             this.groupBox6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericComandas)).EndInit();
+            this.gbNumClientes.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericClientes)).EndInit();
             this.ResumeLayout(false);
 
         }
