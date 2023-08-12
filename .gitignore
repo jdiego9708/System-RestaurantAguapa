@@ -166,6 +166,8 @@ DocProject/Help/html
 # Click-Once directory
 !publish/
 
+!publish/Application Files/
+
 !publish/SqlServerTypes/
 !publish/SqlServerTypes/x64/
 !publish/SqlServerTypes/x86/
